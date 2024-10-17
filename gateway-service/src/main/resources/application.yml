@@ -36,3 +36,8 @@ logging:
   level:
     ROOT: INFO
     org.springframework.web: DEBUG
+
+spring:
+  cloud:
+    compatibility-verifier:
+      enabled: false
